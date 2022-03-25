@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #333;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar a {
+    margin-left: 20px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin: 200px 190px 130px 190px; 
+}
+.main_images {
+    height: 15px;
+}
+
+p {
+    text-indent: 40px;
+}
+
+h2:target:before {
+    content: "";
+    display: block;
+    height: 2em;
+    margin-top: -2em;
+    visibility: hidden;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color: aqua;
+    color: rgb(8, 5, 54);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
